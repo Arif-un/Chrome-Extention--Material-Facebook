@@ -5,18 +5,84 @@ GitHub : GitHub.com/arif-un */
 // add style
 let css =
   `
-  ._50tj { -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.58); 
-    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.58);} /* top blue bar */
-  ._585-, ._585- ._4w98{ color:#fff !important;background:#284e86; border:none; border-radius:30px!important } /*search*/
-  ._1frb { color:#fff !important; } /* search */
-  ._2md{ border-radius: 5px; } /*logo*/
+  ._50tj {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
+    
+   } /* top blue bar */
+
+  /*top bar btn*/
+  ._2s25{color:#1f1f1f}
+  ._2s25:hover {border-radius:20px!important;
+    background: #f2f3f5!important;
+    color: #3e3e3e!important;} 
+  ._2s25:focus {border-radius:20px!important;
+     color:#3e3e3e} 
+  ._2s25:active{
+      border-radius:20px!important;
+      color:#3e3e3e;
+    }
+    #facebook ._-kb div {
+      font-family: inherit;
+  }
+  ._h2p ._330i._1z4y .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:hover ._2n_9, ._h2p ._330i._1z4y .jewelButton:focus ._2n_9{
+    background-position: 0px -942px !important;
+  }
+  ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
+    background-position: 0px -892px !important;
+  }
+  ._h2p ._4xi2 a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:hover ._2n_9, ._h2p ._4xi2 a.jewelButton:focus ._2n_9{
+    background-position: 0px -792px !important;
+  }
+  ._h2p ._4d1i ._59fb, ._h2p ._4d1i ._59fc:hover ._59fb, ._h2p ._4d1i ._59fc:focus ._59fb{
+    background-position: 0px -992px !important;
+  }
+  ._h2p ._5lxt, ._h2p ._5lxs:hover ._5lxt, ._h2p ._5lxs:focus ._5lxt, ._h2p ._6qfu, ._h2p ._5lxs:hover ._6qfu, ._h2p ._5lxs:focus ._6qfu{
+    background-position: 0px -844px !important;
+  }
+
+  ._585-, ._585- ._4w98{ color:#fff !important;background:#f2f3f5; border:none; border-radius:30px!important } /*search*/
+  ._1frb { color:#000 !important; } /* search */
+ /* search suggestmenu */
+  ._5tlx{
+    border:none !important;
+    border-radius:15px!important;
+    overflow:hidden!important;
+    margin-left:7px!important;
+  }
+
+
+  ._19eb{background: #284e86; /* logo */
+    padding: 3px;
+    margin-right: 20px;
+    border-radius: 5px}
+    ._2s1x ._2s1y{background-color:white; border:none; zoom:102%}
   ._5va1 {border-radius:15px !important} /*page inside post*/
   ._11qy { padding:5px } /*side stories bar*/
+
+  /* post */
+  ._3ubp,._sg1,._16ve{ background:white;border:none} /*status update head bottom */
+  ._5qtn ._5qtp{margin-left:10px}
   ._4-u2{ border:none!important; border-radius:15px!important;
     margin-top:20px;
-    -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2); 
-    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);} /*post*/
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);} /*post*/
   ._2yq ._4-u2::before{ border:none; } /* post*/
+  #u_0_1m > div{
+    box-shadow:none !important;
+  }
+  ._3vum{
+    border:none !important;
+  }
+  ._3u16{
+    margin-left: 10px !important;
+    margin-right: 10px;
+  }
+  #timeline_story_column {
+    margin-left: 5px !important;
+    margin-right: 5px;
+  }
 
   ._5vb_, ._5vb_ #contentCol, html ._4lh, ._4lh .fbTimelineTimePeriod, ._4lh .fbTimelineSectionExpandPager .uiMorePagerLoader, ._4lh .fbTimelineSectionLoading .loadingIndicator , .fbChatSidebar{ background-color:#fff !important } /*body color*/
   .fbChatSidebar, ._5pr2 .fbChatSidebar { border:none; box-shadow:none !important } /*fb chatbar*/
@@ -24,11 +90,14 @@ let css =
   ._53ij{border-radius: 15px !important} 
   ._55ln { margin: 3px;border-radius : 20px; transition : box-shadow .3s} /*chat people hover*/
   ._55ln:hover{ border-radius:20px; background:#fff;
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.43); 
-    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.43); } /*chat people hover*/
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.30); 
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.30); } /*chat people hover*/
 
   .coverBorder, .coverPhotoImg  { border-radius:0 0 15px 15px } /* cover photo */
   .uiContextualLayer, ._50c9 { border-radius:15px } /*search suggest*/
+  ._3w53{border-radius: 0 0 20px 20px;}
+  ._129h{border:none!important;border-radius:50px}
+  ._129h:focus-within{border:2px solid #95bbff!important}
   ._5vsj .UFIRow._2o9m{ border-radius:0 0 15px 15px!important } /*comnt*/
   ._5vsj._5vsj._5vsj{ border-radius:0 0 15px 15px!important } /* comnt*/
   ._fmi { border:none; background-color:#efefef!important } /*comnt box*/
@@ -40,8 +109,19 @@ let css =
   ._2jq5 { border-radius:15px!important } /*sidebar li*/
   ._3m75 .sideNavItem .uiSideNavEditButton a { border-radius:15px!important } /*sidebar li*/
   ._1mtp ._3wv2:hover, ._1mtp ._4k43:hover, ._1mtp ._4noj:hover, ._1mtp ._60p-:hover, ._1mtp ._1mtq:hover, ._1mtp ._38qe:hover, ._1mtp ._4292:hover, ._1mtp ._1ka4:hover { border-radius:15px!important } /*like btn*/
-  ._2s25:hover {border-radius:20px!important} /*top bar btn*/
-  ._2s25:focus {border-radius:20px!important} /*top bar btn*/
+
+  /* like butons */
+  ._18vj._18vj{
+    border-radius: 50px! important;
+    outline: none;
+  }
+
+  /* notification pop */
+  ._2xwp{
+    border:none;
+    border-radius:15px;
+  }
+
   ._54ng {border:none !important; border-radius:15px!important} /*logout manu*/
   .jewelHeader {border-radius:15px 10px 0 0 !important} /*notification , msg, request manus*/
   .uiToggleFlyout { border:none; border-radius:15px 10px 15px 15px !important} /*notification , msg, request manus*/
@@ -78,6 +158,12 @@ let css =
    ._hij { border-radius: 15px }
    ._h5y { border-radius: 15px 15px 0 0 !important }/*  profile pop up */
    ._572u { border-radius: 0 0 15px 15px !important }  /* profile pop up */
+
+   /* grps side link */
+   ._2yau::after{
+     border:none;
+     border-radius:50px
+   }
   `;
 
 
@@ -91,14 +177,14 @@ if (style.styleSheet) {
 document.getElementsByTagName("head")[0].appendChild(style);
 
 
-var node = document.createElement("script");
-var textnode = document.createTextNode(`Waves.attach('button');
+let node = document.createElement("script");
+let textnode = document.createTextNode(`Waves.attach('a',button');
 Waves.init(); `);
 node.appendChild(textnode);
 
 let js = `
 <script src="data/waves.js "></script><script>
-Waves.attach('button',"._517h");
+Waves.attach('a',button',"._517h");
 Waves.init();   
 </script>`;
 
