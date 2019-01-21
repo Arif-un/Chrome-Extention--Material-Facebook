@@ -69,7 +69,7 @@ let css =
     -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15); 
     box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);} /*post*/
   ._2yq ._4-u2::before{ border:none; } /* post*/
-  #u_0_1m > div{
+  #u_0_1m > div, #u_ps_fetchstream_3_3_0 > div{
     box-shadow:none !important;
   }
   ._3vum{
@@ -84,15 +84,21 @@ let css =
     margin-right: 5px;
   }
 
+  ._3sod{
+   /*  border:none!important; */
+    border-radius:15px!important;
+  } /* notification ballon */
+
   ._5vb_, ._5vb_ #contentCol, html ._4lh, ._4lh .fbTimelineTimePeriod, ._4lh .fbTimelineSectionExpandPager .uiMorePagerLoader, ._4lh .fbTimelineSectionLoading .loadingIndicator , .fbChatSidebar{ background-color:#fff !important } /*body color*/
   .fbChatSidebar, ._5pr2 .fbChatSidebar { border:none; box-shadow:none !important } /*fb chatbar*/
   ._rv { border-radius:50%; } /*chat manu hover pic*/
   ._53ij{border-radius: 15px !important} 
   ._55ln { margin: 3px;border-radius : 20px; transition : box-shadow .3s} /*chat people hover*/
-  ._55ln:hover{ border-radius:20px; background:#fff;
-    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.30); 
-    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.30); } /*chat people hover*/
-
+  ._qhr:hover{ border-radius:20px; background:#fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); } /*chat people hover*/
+  ._40qq{background:#2d2d2d;} /* close btn */
   .coverBorder, .coverPhotoImg  { border-radius:0 0 15px 15px } /* cover photo */
   .uiContextualLayer, ._50c9 { border-radius:15px } /*search suggest*/
   ._3w53{border-radius: 0 0 20px 20px;}
@@ -177,22 +183,4 @@ if (style.styleSheet) {
 document.getElementsByTagName("head")[0].appendChild(style);
 
 
-let node = document.createElement("script");
-let textnode = document.createTextNode(`Waves.attach('a',button');
-Waves.init(); `);
-node.appendChild(textnode);
-
-let js = `
-<script src="data/waves.js "></script><script>
-Waves.attach('a',button',"._517h");
-Waves.init();   
-</script>`;
-
-let j = document.createElement("script");
-
-j.type = 'text/javascript';
-j.src = 'data/waves.js';
-
-document.getElementsByTagName("body")[0].appendChild(j);
-document.getElementsByTagName("body")[0].appendChild(node);
 
