@@ -26,21 +26,6 @@ let css =
     #facebook ._-kb div {
       font-family: inherit;
   }
-  ._h2p ._330i._1z4y .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:hover ._2n_9, ._h2p ._330i._1z4y .jewelButton:focus ._2n_9{
-    background-position: 0px -942px !important;
-  }
-  ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
-    background-position: 0px -892px !important;
-  }
-  ._h2p ._4xi2 a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:hover ._2n_9, ._h2p ._4xi2 a.jewelButton:focus ._2n_9{
-    background-position: 0px -792px !important;
-  }
-  ._h2p ._4d1i ._59fb, ._h2p ._4d1i ._59fc:hover ._59fb, ._h2p ._4d1i ._59fc:focus ._59fb{
-    background-position: 0px -992px !important;
-  }
-  ._h2p ._5lxt, ._h2p ._5lxs:hover ._5lxt, ._h2p ._5lxs:focus ._5lxt, ._h2p ._6qfu, ._h2p ._5lxs:hover ._6qfu, ._h2p ._5lxs:focus ._6qfu{
-    background-position: 0px -844px !important;
-  }
 
   ._585-, ._585- ._4w98{ color:#fff !important;background:#f2f3f5; border:none; border-radius:30px!important } /*search*/
   ._1frb { color:#000 !important; } /* search */
@@ -75,15 +60,26 @@ let css =
   ._3vum{
     border:none !important;
   }
-  ._3u16{
-    margin-left: 10px !important;
-    margin-right: 10px;
-  }
   #timeline_story_column {
     margin-left: 5px !important;
     margin-right: 5px;
   }
 
+  ._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:active ._2n_9, ._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9{
+    background-position: -25px -319px !important; 
+  }
+  ._h2p ._4xi2.hasNew a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:active ._2n_9, ._h2p ._4xi2.openToggler a.jewelButton ._2n_9{
+    background-position: 0px -294px;
+  }
+  ._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9{
+    background-position: 0px -193px;
+  }
+  ._h2p ._4d1i ._59fc:active ._59fb, ._h2p ._4d1i.openToggler ._59fc ._59fb{
+    background-position: -76px -319px;
+  }
+  ._h2p ._5lxs:active ._5lxt, ._h2p .openToggler ._5lxs ._5lxt, ._h2p ._5lxs:active ._6qfu, ._h2p .openToggler ._5lxs ._6qfu{
+    background-position: -50px -294px;
+  }
   ._3sod{
    /*  border:none!important; */
     border-radius:15px!important;
@@ -170,6 +166,20 @@ let css =
      border:none;
      border-radius:50px
    }
+   #pagelet_ego_pane{
+     margin-top:14px !important;
+   }
+   ._2yaa{
+     border:none!important;
+     border-radius:20px !important;
+   }
+   ._36nj::after{
+     border:none!important;
+   }
+   ._36nj::before{
+    border:none!important;
+    }
+   
   `;
 
 
