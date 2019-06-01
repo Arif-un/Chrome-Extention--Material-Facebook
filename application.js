@@ -37,7 +37,6 @@ let css =
     margin-left:7px!important;
   }
 
-
   ._19eb{background: #284e86; /* logo */
     padding: 3px;
     margin-right: 20px;
@@ -179,7 +178,9 @@ let css =
    ._36nj::before{
     border:none!important;
     }
-   
+    ._2tev{
+      border-radius:15px 15px 0 0 !important;
+    }
   `;
 
 
