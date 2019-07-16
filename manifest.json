@@ -1,10 +1,11 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
   "name": "Material Facebook",
-  "version": "1.0",
+  "short_name": "Material Design Facebook",
+  "version": "1.8",
   "manifest_version": 2,
   "description": "Custom Material Design in Facebook",
-  "permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["https://facebook.com/*"],
   "content_scripts": [{
     "matches": [
       "*://*.facebook.com/*"

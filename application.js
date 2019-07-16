@@ -46,6 +46,9 @@ let css =
   ._11qy { padding:5px } /*side stories bar*/
 
   /* post */
+  .mbm {
+    overflow:hidden
+  }
   ._3ubp,._sg1,._16ve{ background:white;border:none} /*status update head bottom */
   ._5qtn ._5qtp{margin-left:10px}
   ._4-u2{ border:none!important; border-radius:15px!important;
@@ -64,20 +67,22 @@ let css =
     margin-right: 5px;
   }
 
+  ._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9{
+    background-position: -25px -354px !important; 
+  }
+
   ._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:active ._2n_9, ._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9{
-    background-position: -25px -319px !important; 
+    background-position: -75px -354px !important; 
   }
   ._h2p ._4xi2.hasNew a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:active ._2n_9, ._h2p ._4xi2.openToggler a.jewelButton ._2n_9{
-    background-position: 0px -294px;
+    background-position: -50px -279px;
   }
-  ._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9{
-    background-position: 0px -193px;
-  }
+  
   ._h2p ._4d1i ._59fc:active ._59fb, ._h2p ._4d1i.openToggler ._59fc ._59fb{
-    background-position: -76px -319px;
+    background-position: -227px -352px;
   }
   ._h2p ._5lxs:active ._5lxt, ._h2p .openToggler ._5lxs ._5lxt, ._h2p ._5lxs:active ._6qfu, ._h2p .openToggler ._5lxs ._6qfu{
-    background-position: -50px -294px;
+    background-position: -250px -329px;
   }
   ._3sod{
    /*  border:none!important; */
