@@ -2,6 +2,9 @@
 
 A simple customization of current desktop facebook UI. Inspired by Google Material Desgin.
 
+[Download Extension Here](https://chrome.google.com/webstore/detail/ioikkkpackemjofjcimffddokchpdpge)
+.
+
 
 ![Material Facebook](https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/img/1400.png?raw=true "Material Design Facebook")
 
