@@ -13,7 +13,7 @@ let css =
    } /* top blue bar */
 
   /*top bar btn*/
-  ._2s25{color:#1f1f1f}
+  ._2s25{color:#1f1f1f !important}
   ._2s25:hover {border-radius:20px!important;
     background: #f2f3f5!important;
     color: #3e3e3e!important;} 
