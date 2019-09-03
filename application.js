@@ -5,9 +5,6 @@ GitHub : GitHub.com/arif-un */
 // add style
 let css =
   `
-  ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
-    background-image:url(/icons/icon.png) !important;
-  }
   ._50tj {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
@@ -69,24 +66,48 @@ let css =
     margin-left: 5px !important;
     margin-right: 5px;
   }
-
-  ._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9{
-    background-position: -25px -354px !important; 
-  }
-
-  ._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:active ._2n_9, ._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9{
-    background-position: -75px -354px !important; 
-  }
-  ._h2p ._4xi2.hasNew a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:active ._2n_9, ._h2p ._4xi2.openToggler a.jewelButton ._2n_9{
-    background-position: -50px -279px;
-  }
   
-  ._h2p ._4d1i ._59fc:active ._59fb, ._h2p ._4d1i.openToggler ._59fc ._59fb{
-    background-position: -227px -352px;
+  ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;
   }
-  ._h2p ._5lxs:active ._5lxt, ._h2p .openToggler ._5lxs ._5lxt, ._h2p ._5lxs:active ._6qfu, ._h2p .openToggler ._5lxs ._6qfu{
-    background-position: -250px -329px;
+  ._h2p ._330i._1z4y .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:hover ._2n_9, ._h2p ._330i._1z4y .jewelButton:focus ._2n_9{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;
   }
+  ._h2p ._4xi2 a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:hover ._2n_9, ._h2p ._4xi2 a.jewelButton:focus ._2n_9{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;    
+  }
+
+          /* friend req */
+  ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
+    background-position: -26px -319px !important; 
+  }
+          /* friend req active */
+  ._h2p ._3nzl.hasNew .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:active ._2n_9, ._h2p ._3nzl.openToggler .jewelButton ._2n_9{
+    background-position: -26px -319px !important; 
+  }
+
+          /* message */
+  ._h2p ._330i._1z4y .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:hover ._2n_9, ._h2p ._330i._1z4y .jewelButton:focus ._2n_9{
+    background-position: -75px -319px !important; 
+  }
+
+        /* massege focus */
+  ._h2p ._330i._1z4y.hasNew .jewelButton ._2n_9, ._h2p ._330i._1z4y .jewelButton:active ._2n_9, ._h2p ._330i._1z4y.openToggler .jewelButton ._2n_9{
+    background-position: -75px -319px !important;
+  }
+
+        /* notification */
+  ._h2p ._4xi2 a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:hover ._2n_9, ._h2p ._4xi2 a.jewelButton:focus ._2n_9{
+    background-position: -27px -169px !important;
+  }
+
+        /* notification focus */
+  ._h2p ._4xi2.hasNew a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:active ._2n_9, ._h2p ._4xi2.openToggler a.jewelButton ._2n_9{
+    background-position: -27px -169px !important;
+  }
+
+  
+
   ._3sod{
    /*  border:none!important; */
     border-radius:15px!important;
