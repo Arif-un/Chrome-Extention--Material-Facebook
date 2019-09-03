@@ -5,6 +5,9 @@ GitHub : GitHub.com/arif-un */
 // add style
 let css =
   `
+  ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
+    background-image:url(/icons/icon.png) !important;
+  }
   ._50tj {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
