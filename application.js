@@ -5,6 +5,9 @@ GitHub : GitHub.com/arif-un */
 // add style
 let css =
   `
+  ._li{
+    background:#fff;
+  }
   ._50tj {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.13);
@@ -53,8 +56,8 @@ let css =
   ._5qtn ._5qtp{margin-left:10px}
   ._4-u2{ border:none!important; border-radius:15px!important;
     margin-top:20px;
-    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15); 
-    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);} /*post*/
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.13); 
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.13);} /*post*/
   ._2yq ._4-u2::before{ border:none; } /* post*/
   #u_0_1m > div, #u_ps_fetchstream_3_3_0 > div{
     box-shadow:none !important;
@@ -76,6 +79,35 @@ let css =
   ._h2p ._4xi2 a.jewelButton ._2n_9, ._h2p ._4xi2 a.jewelButton:hover ._2n_9, ._h2p ._4xi2 a.jewelButton:focus ._2n_9{
     background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;    
   }
+  ._33xd._ydq{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;
+    background-position: 0px -294px;
+  }
+  ._33s3:active ._33xd._ydq, ._1dqw ._33xd._ydq{
+    background-position: 0px -294px;
+  }
+  ._h2p ._4d1i ._59fb, ._h2p ._4d1i ._59fc:hover ._59fb, ._h2p ._4d1i ._59fc:focus ._59fb{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;
+    background-position: -103px -622px;
+  }
+  ._h2p ._4d1i ._59fc:active ._59fb, ._h2p ._4d1i.openToggler ._59fc ._59fb{
+    background-position: -103px -622px;
+  }
+  ._h2p ._5lxt, ._h2p ._5lxs:hover ._5lxt, ._h2p ._5lxs:focus ._5lxt, ._h2p ._6qfu, ._h2p ._5lxs:hover ._6qfu, ._h2p ._5lxs:focus ._6qfu{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;
+    background-position: -100px -293px;
+  }
+  ._h2p ._5lxs:active ._5lxt, ._h2p .openToggler ._5lxs ._5lxt, ._h2p ._5lxs:active ._6qfu, ._h2p .openToggler ._5lxs ._6qfu{
+    background-image:url(https://github.com/Arif-un/Chrome-Extention--Material-Facebook/blob/master/icons/icon.png?raw=true) !important;
+    background-position: -100px -293px;
+  }
+  ._yv-{
+    border-radius:15px;
+  }
+  ._53il ._558b{
+    padding-top:8px !important;
+  }
+
 
           /* friend req */
   ._h2p ._3nzl .jewelButton ._2n_9, ._h2p ._3nzl .jewelButton:hover ._2n_9, ._h2p ._3nzl .jewelButton:focus ._2n_9{
@@ -176,7 +208,7 @@ let css =
 
    ._5sqx { margin : 0; border-radius: 0px !important}
    ._5sqx { margin : 0; border-radius: 0px !important}
-   ._58al,._4oes { border-radius: 20px !important }
+   ._58al,._4oes { background:#fff;border-radius: 20px !important }
    .uiButtonGroup, .uiButtonGroupItem {border:none !important; border-radius:20px!important} /* profile top bar */
    .back {border-radius:0 0 15px 15px !important } /* profile top bar */
    ._4jhq , ._2dgj, ._qa1 { border:none ;border-radius : 15px} /* page profile pic */
@@ -210,8 +242,13 @@ let css =
     ._2tev{
       border-radius:15px 15px 0 0 !important;
     }
+    /*instant game bar*/
+    ._4ejc{
+      background-color:white !important;
+    }
   `;
 
+   console.log(document.getElementsByClassName('uiContextualLayerPositioner'))
 
 let style = document.createElement("style");
 
