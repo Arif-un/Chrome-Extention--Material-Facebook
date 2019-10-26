@@ -248,8 +248,6 @@ let css =
     }
   `;
 
-   console.log(document.getElementsByClassName('uiContextualLayerPositioner'))
-
 let style = document.createElement("style");
 
 if (style.styleSheet) {
