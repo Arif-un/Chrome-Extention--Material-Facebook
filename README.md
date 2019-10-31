@@ -2,7 +2,7 @@
 
 A simple customization of current desktop facebook UI. Inspired by Google Material Desgin.
 
-[Download Extension Here](https://chrome.google.com/webstore/detail/ioikkkpackemjofjcimffddokchpdpge)
+[Download Extension Here](https://chrome.google.com/webstore/detail/materiable/aoaoiammnldamfapaiejppjneffdplip)
 .
 
 
